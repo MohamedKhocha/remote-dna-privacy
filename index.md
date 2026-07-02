@@ -7,15 +7,24 @@ published by **beinteck** (Mohamed Khocha).
 
 ## Data we collect
 
-**None.** The App does not collect, store, transmit, sell, or share any
-personal data.
+**No personal data.** The App does not collect, store, transmit, sell, or
+share any personal information.
 
 - All app data (your saved devices, button mappings, language and theme
   preferences) is stored **locally on your phone only** and never leaves it.
-- The App works fully **offline**. It makes no network calls during normal use.
-- The App contains **no advertising SDKs, no analytics, and no trackers**.
+- All remote-control features work fully **offline**.
+- The App contains **no advertising SDKs and no behavioural trackers**.
 - The App does not access your contacts, location, camera, microphone, files,
   or any other sensitive resource.
+
+### Crash reports
+
+To keep the App stable, anonymous **crash reports** are sent to Sentry
+(sentry.io, EU data region) **only if the App crashes**. A report contains the
+technical error, app version, and device model/OS version. It contains **no
+personal data, no identifiers you entered, and no saved devices**, and it is
+never used for advertising. You can block this at any time by denying the App
+network access — every remote-control feature keeps working.
 
 ## Permissions
 
