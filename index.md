@@ -14,8 +14,9 @@ share any personal information.
   preferences) is stored **locally on your phone only** and never leaves it.
 - All remote-control features work fully **offline**.
 - The App contains **no advertising SDKs and no behavioural trackers**.
-- The App does not access your contacts, location, camera, microphone, files,
-  or any other sensitive resource.
+- The App does not access your contacts, location, microphone, files, or any
+  other sensitive resource. The camera is used only for the optional QR
+  device-sharing feature described below.
 
 ### Crash reports
 
@@ -31,6 +32,11 @@ network access — every remote-control feature keeps working.
 - `android.permission.TRANSMIT_IR` — required to emit infrared signals through
   your phone's IR blaster so the App can act as a remote control. IR signals
   are one-way light pulses; they carry no personal information.
+- `android.permission.CAMERA` — used **only** when you choose
+  "Import via QR" to scan a device-sharing QR code shown on another phone.
+  Camera frames are processed on your device in real time; **no photo or video
+  is ever captured, stored, or uploaded**. You can deny this permission and
+  every other feature keeps working.
 
 ## Data deletion
 
