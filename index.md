@@ -44,18 +44,22 @@ You can request deletion of your account at any time — see section 8.
 
 ## 3. Payments
 
-Pro is a one-time purchase.
+Pro is a one-time purchase. How it is paid depends on where you installed the
+App from, and this section discloses the payment processor used in each case.
 
-- **In Algeria (outside Google Play):** payment is processed by **Chargily Pay**
-  on their own secure page. Your card details are entered on Chargily's site and
-  are **never seen, handled or stored by the App or by us**. Chargily provides us
-  with the transaction reference, amount and status. Chargily's own privacy
-  policy applies to the data you enter there.
-- **On Google Play:** purchases are handled by **Google Play Billing** through
-  RevenueCat, which identifies your purchase with an anonymous identifier. We
-  receive no card data.
+- **If you installed the App from Google Play** — the only in-app purchase route
+  is **Google Play Billing**, handled through RevenueCat, which identifies your
+  purchase with an anonymous identifier. We receive no card data.
+- **If you installed the App directly from our website** (the version
+  distributed outside Google Play) — payment is processed by **Chargily Pay** on
+  their own secure page. Your card details are entered on Chargily's site and are
+  **never seen, handled or stored by the App or by us**. Chargily provides us with
+  the transaction reference, amount and status, and Chargily's own privacy policy
+  applies to the data you enter there. This route is not offered inside the
+  Google Play version of the App.
 
-We store the transaction reference, amount, status and the issued licence key.
+In both cases we store only the transaction reference, amount, status and the
+issued licence key.
 
 ## 4. Advertising
 
