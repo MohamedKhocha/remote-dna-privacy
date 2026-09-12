@@ -114,8 +114,11 @@ and reports are never used for advertising.
 
 - **Delete local data:** uninstall the App, or clear its data in Android Settings.
 - **Delete your account and everything linked to it** (email, password hash,
-  licence binding): email us at the address below from the account's email and we
-  will erase it within 30 days.
+  licence binding): in the App, open **Me → Account → Delete account
+  permanently**. The record is erased immediately — no request, no waiting. A Pro
+  licence you paid for is **unlinked, never revoked**: the key keeps working and
+  can be activated again later. If you cannot reach the App, email us at the
+  address below from the account's email and we will erase it within 30 days.
 - **Withdraw code-contribution consent:** turn it off in Settings. Previously
   contributed codes are anonymous and cannot be traced back to you.
 
