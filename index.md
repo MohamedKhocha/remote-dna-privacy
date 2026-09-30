@@ -1,6 +1,6 @@
 # REMOTE DNA — Privacy Policy
 
-**Effective date:** August 18, 2026
+**Effective date:** August 18, 2026 · **Last updated:** September 30, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -23,6 +23,10 @@ The following never leaves your phone:
 - Language, theme and onboarding preferences.
 - Your Pro licence key and sign-in token (stored in the Android Keystore via
   encrypted storage).
+- Wi-Fi pairing data for your TVs: the key an LG or Samsung TV issues when you
+  accept the connection, and for Android TV a client certificate generated in
+  the Android Keystore plus the TV's certificate fingerprint. They let the App
+  reconnect without asking again and are used only on your home network.
 
 Uninstalling the App deletes all of it.
 
@@ -108,7 +112,15 @@ and reports are never used for advertising.
   ads, crash reports, catalogue updates). All remote-control functions work with
   the network switched off.
 - **Local network discovery** — when you use Wi-Fi control, the App looks for
-  smart TVs on your own network. This traffic stays inside your home network.
+  smart TVs on your own network (SSDP/DIAL and mDNS), and when you type a TV's
+  IP address it checks which control ports answer on that one address to tell
+  the TV's system. It only talks to the device you choose, and this traffic
+  stays inside your home network.
+- `AD_ID` (advertising ID) — declared by Google AdMob for the optional rewarded
+  video described in section 4. Pro users make no ad requests.
+
+The App does **not** request microphone, location, contacts, phone, SMS or
+file-storage permissions.
 
 ## 8. Your rights and data deletion
 
