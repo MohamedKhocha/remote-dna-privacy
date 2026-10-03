@@ -1,6 +1,6 @@
 # REMOTE DNA — Privacy Policy
 
-**Effective date:** August 18, 2026 · **Last updated:** September 30, 2026
+**Effective date:** August 18, 2026 · **Last updated:** October 3, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -19,7 +19,8 @@ kept in sync with the shipping code.
 
 The following never leaves your phone:
 
-- Your saved devices, their code sets and any buttons captured with the Hunter.
+- Your saved devices, their code sets and any buttons you taught the App
+  ("Teach my TV", "Fix a button").
 - Language, theme and onboarding preferences.
 - Your Pro licence key and sign-in token (stored in the Android Keystore via
   encrypted storage).
@@ -67,9 +68,13 @@ issued licence key.
 
 ## 4. Advertising
 
-The free tier shows **one optional rewarded video advertisement** before the
-Command Hunter, served by **Google AdMob**. There are no banners, no interstitials
-and no ads anywhere else in the App.
+The free tier shows **one short rewarded video advertisement every three uses**
+of "Fix a button", served by **Google AdMob**. There are no banners, no
+interstitials and no ads anywhere else in the App. If no ad can be shown, the
+feature opens anyway.
+
+- Ads are requested with the **"G" (general audiences) content rating** only,
+  and start **muted**.
 
 - In the EEA, the UK and Switzerland, a **consent form (Google UMP)** is shown
   before any ad is requested, and your choice is respected.
