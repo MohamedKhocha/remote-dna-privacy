@@ -122,6 +122,10 @@ and reports are never used for advertising.
   device's label. Everything is processed on your device: a label photo is
   **deleted as soon as it has been read**, and **no photo or video is stored or
   uploaded**. You may deny it and everything else keeps working.
+- **Choosing a photo** — in "Find by model" you can also pick a label photo
+  you already took. Android's photo picker gives the App that one photo and
+  nothing else, with no storage permission; it is read on your device, the copy
+  made for reading is deleted, and nothing is uploaded.
 - `INTERNET` — needed only for the optional features above (account, payment,
   ads, crash reports, catalogue updates). All remote-control functions work with
   the network switched off.

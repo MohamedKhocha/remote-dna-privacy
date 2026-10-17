@@ -128,6 +128,10 @@ desativadas explicitamente, e os relatórios nunca são usados para publicidade.
   modelo na etiqueta de um aparelho. Tudo é processado no seu aparelho: a foto de
   uma etiqueta é **apagada assim que é lida**, e **nenhuma foto ou vídeo é
   guardado ou enviado**. Você pode negar, e todo o resto continua funcionando.
+- **Escolher uma foto** — em «Buscar pelo modelo» você também pode escolher uma
+  foto da etiqueta que já tirou. O seletor de fotos do Android entrega ao App só
+  essa foto, sem permissão de armazenamento; ela é lida no seu aparelho, a cópia
+  feita para a leitura é apagada e nada é enviado.
 - `INTERNET` — só é necessária para os recursos opcionais acima (conta,
   pagamento, anúncios, relatórios de falhas, atualizações do catálogo). Todas as
   funções de controle funcionam com a rede desligada.

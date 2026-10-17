@@ -140,6 +140,10 @@ désactivées, et les rapports ne servent jamais à la publicité.
   la photo d’une étiquette est **supprimée dès qu’elle a été lue**, et **aucune
   photo ni vidéo n’est conservée ou envoyée**. Vous pouvez la refuser, tout le
   reste continue de fonctionner.
+- **Choisir une photo** — dans « Trouver par modèle », vous pouvez aussi choisir
+  une photo d’étiquette déjà prise. Le sélecteur de photos d’Android ne donne à
+  l’Application que cette photo, sans autorisation de stockage ; elle est lue sur
+  votre appareil, la copie faite pour la lecture est supprimée, et rien n’est envoyé.
 - `INTERNET` — nécessaire uniquement pour les fonctions facultatives ci‑dessus
   (compte, paiement, publicités, rapports de plantage, mises à jour du
   catalogue). Toutes les fonctions de télécommande marchent réseau coupé.

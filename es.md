@@ -130,6 +130,10 @@ publicidad.
   modelo en la etiqueta de un equipo. Todo se procesa en tu dispositivo: la foto
   de una etiqueta **se borra en cuanto se lee**, y **no se guarda ni se sube
   ninguna foto ni video**. Puedes negarlo y todo lo demás sigue funcionando.
+- **Elegir una foto** — en «Buscar por modelo» también puedes elegir una foto de
+  la etiqueta que ya tomaste. El selector de fotos de Android le da a la App solo
+  esa foto, sin permiso de almacenamiento; se lee en tu dispositivo, la copia hecha
+  para leerla se borra y no se sube nada.
 - `INTERNET` — solo se necesita para las funciones opcionales de arriba (cuenta,
   pago, anuncios, informes de fallos, actualizaciones del catálogo). Todas las
   funciones de control funcionan con la red apagada.
