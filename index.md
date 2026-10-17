@@ -1,6 +1,8 @@
 # REMOTE DNA — Privacy Policy
 
-**Effective date:** August 18, 2026 · **Last updated:** October 3, 2026
+[العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
+
+**Effective date:** August 18, 2026 · **Last updated:** October 17, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -21,7 +23,8 @@ The following never leaves your phone:
 
 - Your saved devices, their code sets and any buttons you taught the App
   ("Teach my TV", "Fix a button").
-- Language, theme and onboarding preferences.
+- Language, theme and onboarding preferences. Until you pick a language, the
+  App follows your phone's language, read on the device.
 - Your Pro licence key and sign-in token (stored in the Android Keystore via
   encrypted storage).
 - Wi-Fi pairing data for your TVs: the key an LG or Samsung TV issues when you
@@ -68,10 +71,15 @@ issued licence key.
 
 ## 4. Advertising
 
-The free tier shows **one short rewarded video advertisement every three uses**
-of "Fix a button", served by **Google AdMob**. There are no banners, no
-interstitials and no ads anywhere else in the App. If no ad can be shown, the
-feature opens anyway.
+The free tier shows advertisements served by **Google AdMob**:
+
+- an **app-open ad** when the App starts (never on the very first launch, and
+  on returning from the background only after a long absence);
+- now and then a **full-screen ad between screens**;
+- a short **rewarded video** every three uses of "Fix a button".
+
+Two full-screen ads are always at least three minutes apart. There are no
+banners. If no ad can be shown, the App carries on without it.
 
 - Ads are requested with the **"G" (general audiences) content rating** only,
   and start **muted**.
@@ -121,8 +129,8 @@ and reports are never used for advertising.
   IP address it checks which control ports answer on that one address to tell
   the TV's system. It only talks to the device you choose, and this traffic
   stays inside your home network.
-- `AD_ID` (advertising ID) — declared by Google AdMob for the optional rewarded
-  video described in section 4. Pro users make no ad requests.
+- `AD_ID` (advertising ID) — declared by Google AdMob for the ads described in
+  section 4. Pro users make no ad requests.
 
 The App does **not** request microphone, location, contacts, phone, SMS or
 file-storage permissions.
