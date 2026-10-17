@@ -124,9 +124,10 @@ desativadas explicitamente, e os relatórios nunca são usados para publicidade.
 - `TRANSMIT_IR` — para emitir sinais infravermelhos pelo emissor IR do seu
   celular. São pulsos de luz em um só sentido e não carregam informação pessoal.
 - `CAMERA` — usada **só** quando você escolhe «Importar por QR» para escanear um
-  código de aparelho compartilhado. As imagens são processadas ao vivo no seu
-  aparelho; **nenhuma foto ou vídeo é tirado, guardado ou enviado**. Você pode
-  negar, e todo o resto continua funcionando.
+  código de aparelho compartilhado, ou «Buscar pelo modelo» para ler o número do
+  modelo na etiqueta de um aparelho. Tudo é processado no seu aparelho: a foto de
+  uma etiqueta é **apagada assim que é lida**, e **nenhuma foto ou vídeo é
+  guardado ou enviado**. Você pode negar, e todo o resto continua funcionando.
 - `INTERNET` — só é necessária para os recursos opcionais acima (conta,
   pagamento, anúncios, relatórios de falhas, atualizações do catálogo). Todas as
   funções de controle funcionam com a rede desligada.

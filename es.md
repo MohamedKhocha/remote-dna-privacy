@@ -126,9 +126,10 @@ publicidad.
   teléfono. Son pulsos de luz en un solo sentido y no llevan información
   personal.
 - `CAMERA` — se usa **solo** cuando eliges «Importar con QR» para escanear un
-  código de dispositivo compartido. Las imágenes se procesan en vivo en tu
-  dispositivo; **no se toma, guarda ni sube ninguna foto ni video**. Puedes
-  negarlo y todo lo demás sigue funcionando.
+  código de dispositivo compartido, o «Buscar por modelo» para leer el número de
+  modelo en la etiqueta de un equipo. Todo se procesa en tu dispositivo: la foto
+  de una etiqueta **se borra en cuanto se lee**, y **no se guarda ni se sube
+  ninguna foto ni video**. Puedes negarlo y todo lo demás sigue funcionando.
 - `INTERNET` — solo se necesita para las funciones opcionales de arriba (cuenta,
   pago, anuncios, informes de fallos, actualizaciones del catálogo). Todas las
   funciones de control funcionan con la red apagada.

@@ -118,9 +118,10 @@ and reports are never used for advertising.
 - `TRANSMIT_IR` — to emit infrared signals through your phone's IR blaster. IR
   signals are one-way light pulses and carry no personal information.
 - `CAMERA` — used **only** when you choose "Import via QR" to scan a
-  device-sharing code. Frames are processed live on your device; **no photo or
-  video is captured, stored or uploaded**. You may deny it and everything else
-  keeps working.
+  device-sharing code, or "Find by model" to read the model number on a
+  device's label. Everything is processed on your device: a label photo is
+  **deleted as soon as it has been read**, and **no photo or video is stored or
+  uploaded**. You may deny it and everything else keeps working.
 - `INTERNET` — needed only for the optional features above (account, payment,
   ads, crash reports, catalogue updates). All remote-control functions work with
   the network switched off.

@@ -135,9 +135,11 @@ désactivées, et les rapports ne servent jamais à la publicité.
   votre téléphone. Ce sont des impulsions lumineuses à sens unique, qui ne
   portent aucune information personnelle.
 - `CAMERA` — utilisée **uniquement** quand vous choisissez « Importer par QR »
-  pour scanner un code de partage. Les images sont traitées en direct sur votre
-  appareil ; **aucune photo ni vidéo n’est prise, conservée ou envoyée**. Vous
-  pouvez la refuser, tout le reste continue de fonctionner.
+  pour scanner un code de partage, ou « Trouver par modèle » pour lire le numéro
+  de modèle sur l’étiquette d’un appareil. Tout est traité sur votre appareil :
+  la photo d’une étiquette est **supprimée dès qu’elle a été lue**, et **aucune
+  photo ni vidéo n’est conservée ou envoyée**. Vous pouvez la refuser, tout le
+  reste continue de fonctionner.
 - `INTERNET` — nécessaire uniquement pour les fonctions facultatives ci‑dessus
   (compte, paiement, publicités, rapports de plantage, mises à jour du
   catalogue). Toutes les fonctions de télécommande marchent réseau coupé.
