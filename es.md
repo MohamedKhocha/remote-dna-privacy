@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](./) es el que vale.
 
-**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 17 de octubre de 2026
+**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 20 de octubre de 2026
 
 REMOTE DNA («la App») es un control remoto universal para TV y aires
 acondicionados, publicado por **Solar AI Systems** (Mohamed Khocha), Argelia.
@@ -34,6 +34,9 @@ Lo siguiente nunca sale de tu teléfono:
   Samsung cuando aceptas la conexión y, en Android TV, un certificado de cliente
   generado en el Android Keystore junto con la huella del certificado de la TV.
   Permiten reconectar sin volver a preguntar y solo se usan en tu red doméstica.
+- Para un aire Gree por Wi‑Fi, la clave de cifrado que el equipo entrega a la App
+  al vincularlo; para el control Bluetooth, la dirección Bluetooth de la TV
+  emparejada. Solo se usan para llegar a ese dispositivo.
 
 Desinstalar la App borra todo esto.
 
@@ -142,12 +145,26 @@ publicidad.
   de una TV, comprueba qué puertos de control responden en esa sola dirección
   para reconocer su sistema. Solo se comunica con el equipo que eliges, y ese
   tráfico no sale de tu red doméstica.
+- `BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`, `BLUETOOTH_ADVERTISE` (“Dispositivos
+  cercanos”) — se usan **solo** cuando eliges el control Bluetooth o el cursor:
+  para encontrar tu TV, emparejarla, hacer visible el teléfono durante el
+  emparejamiento y enviarle teclas y movimientos del puntero. La búsqueda está
+  declarada “nunca para ubicación”, y los nombres y direcciones que ve no se
+  guardan, salvo la dirección de la TV que elijas.
+- `ACCESS_FINE_LOCATION` — se pide **solo en Android 11 o anterior**, y solo cuando
+  tocas “Buscar dispositivos cercanos”: esas versiones permiten buscar
+  dispositivos Bluetooth solo con este permiso. La App nunca lee, guarda ni envía
+  tu ubicación. Android 12 y posteriores nunca la piden.
+- **Aires Gree** — para controlar un equipo Gree por Wi‑Fi, la App lo encuentra con
+  un mensaje de difusión en tu propia red y le habla directamente (cifrado, puerto
+  UDP 7000). Nada pasa por ningún servidor.
 - `AD_ID` (identificador publicitario) — declarado por Google AdMob para los
   anuncios descritos en la sección 4. Los usuarios Pro no hacen solicitudes
   publicitarias.
 
-La App **no** pide permisos de micrófono, ubicación, contactos, teléfono, SMS ni
-almacenamiento de archivos.
+La App **no** pide micrófono, contactos, teléfono, SMS ni almacenamiento, y solo
+pide la ubicación como se describe arriba (Android 11 o anterior, para la
+búsqueda Bluetooth).
 
 ## 8. Tus derechos y la eliminación de datos
 

@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** October 17, 2026
+**Effective date:** August 18, 2026 · **Last updated:** October 20, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -31,6 +31,9 @@ The following never leaves your phone:
   accept the connection, and for Android TV a client certificate generated in
   the Android Keystore plus the TV's certificate fingerprint. They let the App
   reconnect without asking again and are used only on your home network.
+- For a Gree air conditioner on Wi‑Fi, the encryption key the unit gives the App
+  when it is paired; for the Bluetooth remote, the paired TV's Bluetooth
+  address. Both are used only to reach that device.
 
 Uninstalling the App deletes all of it.
 
@@ -134,11 +137,25 @@ and reports are never used for advertising.
   IP address it checks which control ports answer on that one address to tell
   the TV's system. It only talks to the device you choose, and this traffic
   stays inside your home network.
+- `BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`, `BLUETOOTH_ADVERTISE` ("Nearby
+  devices") — used **only** when you choose the Bluetooth remote or the cursor:
+  to find your TV, pair with it, make the phone visible to it while pairing, and
+  send it key presses and pointer moves. The search is declared "never for
+  location", and the names and addresses it sees are not kept, except the
+  address of the TV you choose.
+- `ACCESS_FINE_LOCATION` — requested **only on Android 11 and older**, and only
+  when you tap "Search for nearby devices": those Android versions allow a
+  Bluetooth search only with this permission. The App never reads, stores or
+  sends your location. Android 12 and later never ask for it.
+- **Gree air conditioners** — to control a Gree unit over Wi‑Fi, the App finds it
+  with a broadcast on your own network and talks to it directly (encrypted, UDP
+  port 7000). Nothing passes through any server.
 - `AD_ID` (advertising ID) — declared by Google AdMob for the ads described in
   section 4. Pro users make no ad requests.
 
-The App does **not** request microphone, location, contacts, phone, SMS or
-file-storage permissions.
+The App does **not** request microphone, contacts, phone, SMS or file-storage
+permissions, and asks for location only as described above (Android 11 and
+older, for the Bluetooth search).
 
 ## 8. Your rights and data deletion
 

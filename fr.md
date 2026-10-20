@@ -4,7 +4,7 @@
 
 > Ceci est une traduction. En cas de différence, le [texte anglais](./) fait foi.
 
-**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 17 octobre 2026
+**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 20 octobre 2026
 
 REMOTE DNA (« l’Application ») est une télécommande universelle pour téléviseurs
 et climatiseurs, publiée par **Solar AI Systems** (Mohamed Khocha), Algérie.
@@ -37,6 +37,9 @@ Ce qui suit ne quitte jamais votre téléphone :
   certificat client généré dans l’Android Keystore ainsi que l’empreinte du
   certificat du téléviseur. Elles permettent de se reconnecter sans redemander
   et ne servent que sur votre réseau domestique.
+- Pour un climatiseur Gree en Wi‑Fi, la clé de chiffrement que l’appareil remet à
+  l’Application lors de l’appairage ; pour la télécommande Bluetooth, l’adresse
+  Bluetooth du téléviseur associé. Elles servent uniquement à joindre cet appareil.
 
 Désinstaller l’Application supprime tout cela.
 
@@ -153,12 +156,28 @@ désactivées, et les rapports ne servent jamais à la publicité.
   vérifie quels ports de contrôle répondent sur cette seule adresse pour
   reconnaître son système. Elle ne communique qu’avec l’appareil choisi, et ce
   trafic reste dans votre réseau domestique.
+- `BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`, `BLUETOOTH_ADVERTISE` (« Appareils à
+  proximité ») — utilisées **uniquement** quand vous choisissez la télécommande
+  Bluetooth ou le curseur : trouver votre téléviseur, vous y associer, rendre le
+  téléphone visible pendant l’association, et lui envoyer les touches et les
+  mouvements du pointeur. La recherche est déclarée « jamais pour la
+  localisation », et les noms et adresses qu’elle voit ne sont pas conservés, sauf
+  l’adresse du téléviseur que vous choisissez.
+- `ACCESS_FINE_LOCATION` — demandée **uniquement sous Android 11 et antérieur**, et
+  seulement quand vous touchez « Rechercher les appareils proches » : ces versions
+  n’autorisent une recherche Bluetooth qu’avec cette autorisation. L’Application ne
+  lit, n’enregistre ni n’envoie jamais votre position. Android 12 et ultérieur ne
+  la demandent jamais.
+- **Climatiseurs Gree** — pour piloter un appareil Gree en Wi‑Fi, l’Application le
+  trouve par une diffusion sur votre propre réseau et lui parle directement
+  (chiffré, port UDP 7000). Rien ne passe par un serveur.
 - `AD_ID` (identifiant publicitaire) — déclaré par Google AdMob pour les
   publicités décrites à la section 4. Les utilisateurs Pro ne font aucune requête
   publicitaire.
 
-L’Application ne demande **pas** les autorisations micro, position, contacts,
-téléphone, SMS ou stockage de fichiers.
+L’Application ne demande **pas** le micro, les contacts, le téléphone, les SMS ni
+le stockage, et ne demande la position que comme décrit ci‑dessus (Android 11 et
+antérieur, pour la recherche Bluetooth).
 
 ## 8. Vos droits et la suppression des données
 

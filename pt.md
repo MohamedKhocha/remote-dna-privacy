@@ -4,7 +4,7 @@
 
 > Esta é uma tradução. Em caso de diferença, vale o [texto em inglês](./).
 
-**Data de vigência:** 18 de agosto de 2026 · **Última atualização:** 17 de outubro de 2026
+**Data de vigência:** 18 de agosto de 2026 · **Última atualização:** 20 de outubro de 2026
 
 O REMOTE DNA («o App») é um controle remoto universal para TVs e
 ares-condicionados, publicado pela **Solar AI Systems** (Mohamed Khocha),
@@ -36,6 +36,9 @@ O seguinte nunca sai do seu celular:
   cliente gerado no Android Keystore junto com a impressão do certificado da TV.
   Eles permitem reconectar sem perguntar de novo e só são usados na sua rede
   doméstica.
+- Para um ar-condicionado Gree pela Wi‑Fi, a chave de criptografia que o aparelho
+  entrega ao App ao ser vinculado; para o controle Bluetooth, o endereço
+  Bluetooth da TV pareada. Servem só para chegar a esse aparelho.
 
 Desinstalar o App apaga tudo isso.
 
@@ -140,11 +143,25 @@ desativadas explicitamente, e os relatórios nunca são usados para publicidade.
   o endereço IP de uma TV, verifica quais portas de controle respondem nesse
   único endereço para reconhecer o sistema dela. Ele só conversa com o aparelho
   que você escolhe, e esse tráfego fica dentro da sua rede doméstica.
+- `BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`, `BLUETOOTH_ADVERTISE` (“Dispositivos
+  próximos”) — usadas **só** quando você escolhe o controle Bluetooth ou o cursor:
+  para encontrar sua TV, parear, deixar o celular visível durante o pareamento e
+  enviar teclas e movimentos do ponteiro. A busca é declarada “nunca para
+  localização”, e os nomes e endereços que ela vê não são guardados, exceto o
+  endereço da TV que você escolher.
+- `ACCESS_FINE_LOCATION` — pedida **só no Android 11 ou anterior**, e só quando
+  você toca em “Procurar aparelhos próximos”: essas versões só permitem procurar
+  aparelhos Bluetooth com esta permissão. O App nunca lê, guarda nem envia sua
+  localização. O Android 12 e posteriores nunca a pedem.
+- **Ares-condicionados Gree** — para controlar um aparelho Gree pela Wi‑Fi, o App o
+  encontra com uma mensagem de difusão na sua própria rede e fala com ele direto
+  (criptografado, porta UDP 7000). Nada passa por nenhum servidor.
 - `AD_ID` (identificador de publicidade) — declarado pelo Google AdMob para os
   anúncios descritos na seção 4. Usuários Pro não fazem pedidos de anúncio.
 
-O App **não** pede permissões de microfone, localização, contatos, telefone, SMS
-nem armazenamento de arquivos.
+O App **não** pede microfone, contatos, telefone, SMS nem armazenamento, e só pede
+a localização como descrito acima (Android 11 ou anterior, para a busca
+Bluetooth).
 
 ## 8. Seus direitos e a exclusão de dados
 
