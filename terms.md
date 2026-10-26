@@ -35,7 +35,7 @@ App at the time of purchase. There is no subscription.
 
 - **Bought on Google Play:** payment, receipts and refunds follow the Google
   Play policies; the purchase follows your Google account.
-- **Bought on our website (Chargily, in DZD):** the price is shown before you
+- **Bought in the version of the App distributed outside Google Play (Chargily, in DZD):** the price is shown before you
   pay. You receive a licence key, usable on up to 10 activations. If Pro does
   not work on your device and support cannot fix it, write to us **within 14
   days** of purchase with your key and we will refund the payment through

@@ -41,7 +41,7 @@ les fonctions Pro décrites dans l’App au moment de l’achat. Aucun abonnemen
 
 - **Achat sur Google Play :** le paiement, les reçus et les remboursements
   suivent les règles de Google Play ; l’achat suit votre compte Google.
-- **Achat sur notre site (Chargily, en DZD) :**
+- **Achat dans la version de l’App distribuée hors de Google Play (Chargily, en DZD) :**
   - le prix est affiché avant le paiement ;
   - vous recevez une clé de licence, valable pour 10 activations au maximum ;
   - si Pro ne fonctionne pas sur votre appareil et que le support ne peut pas
