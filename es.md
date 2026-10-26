@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](./) es el que vale.
 
-**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 20 de octubre de 2026
+**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 26 de octubre de 2026
 
 REMOTE DNA («la App») es un control remoto universal para TV y aires
 acondicionados, publicado por **Solar AI Systems** (Mohamed Khocha), Argelia.
@@ -122,6 +122,8 @@ Se envían informes de fallos anónimos a **Sentry** (región de datos de la UE)
 de la App y el modelo y la versión del sistema del dispositivo. La información
 personal está desactivada explícitamente, y los informes nunca se usan para
 publicidad.
+
+**Comprobación del estado del servidor.** Al abrirse, la App envía una sola solicitud vacía a la página de estado de nuestro servidor, para que esté listo antes de que lo necesites. No lleva ningún identificador ni datos sobre ti o tus dispositivos.
 
 ## 7. Permisos
 

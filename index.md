@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** October 20, 2026
+**Effective date:** August 18, 2026 · **Last updated:** October 26, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -115,6 +115,8 @@ Anonymous crash reports are sent to **Sentry** (EU data region) **only when the
 App crashes**. A report contains the technical error, app version and device
 model/OS version. Personally identifiable information is explicitly disabled,
 and reports are never used for advertising.
+
+**Server status check.** When the App opens, it sends one empty request to our server's status page, so the server is awake before you need it. The request carries no identifier and no data about you or your devices.
 
 ## 7. Permissions
 

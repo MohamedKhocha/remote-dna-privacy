@@ -4,7 +4,7 @@
 
 > Ceci est une traduction. En cas de différence, le [texte anglais](./) fait foi.
 
-**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 20 octobre 2026
+**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 26 octobre 2026
 
 REMOTE DNA (« l’Application ») est une télécommande universelle pour téléviseurs
 et climatiseurs, publiée par **Solar AI Systems** (Mohamed Khocha), Algérie.
@@ -131,6 +131,8 @@ UE) **uniquement en cas de plantage de l’Application**. Un rapport contient
 l’erreur technique, la version de l’Application et le modèle et la version
 système de l’appareil. Les informations personnelles sont explicitement
 désactivées, et les rapports ne servent jamais à la publicité.
+
+**Vérification de l’état du serveur.** À l’ouverture, l’App envoie une seule requête vide à la page d’état de notre serveur, pour qu’il soit prêt avant que vous en ayez besoin. Elle ne contient aucun identifiant ni aucune donnée sur vous ou vos appareils.
 
 ## 7. Autorisations
 
