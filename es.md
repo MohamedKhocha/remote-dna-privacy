@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](./) es el que vale.
 
-**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 26 de octubre de 2026
+**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 27 de octubre de 2026
 
 REMOTE DNA («la App») es un control remoto universal para TV y aires
 acondicionados, publicado por **Solar AI Systems** (Mohamed Khocha), Argelia.
@@ -118,12 +118,20 @@ contribución cuando quieras en Ajustes.
 ## 6. Informes de fallos
 
 Se envían informes de fallos anónimos a **Sentry** (región de datos de la UE)
-**solo cuando la App falla**. Un informe contiene el error técnico, la versión
+**solo cuando la App falla o encuentra un error**. Un informe contiene el error técnico, la versión
 de la App y el modelo y la versión del sistema del dispositivo. La información
 personal está desactivada explícitamente, y los informes nunca se usan para
 publicidad.
 
 **Comprobación del estado del servidor.** Al abrirse, la App envía una sola solicitud vacía a la página de estado de nuestro servidor, para que esté listo antes de que lo necesites. No lleva ningún identificador ni datos sobre ti o tus dispositivos.
+
+**Registros del servidor.** Como cualquier servidor web, el nuestro (alojado en Render) registra en cada solicitud la dirección IP, la hora, la dirección pedida y el tipo de app, en registros técnicos. Solo sirven para seguridad y diagnóstico y se borran tras el breve plazo que fija el proveedor.
+
+**Dónde se guardan los datos.** Nuestro servidor y su base de datos (Render, MongoDB Atlas) y el servicio de correo (Resend) están fuera de Argelia; Sentry guarda los informes de fallos en la Unión Europea; Google (AdMob, Play) y RevenueCat tratan los datos según sus propias políticas. Los pagos del sitio los procesa Chargily en Argelia.
+
+**Plazos de conservación.** Datos de la cuenta: hasta que la elimines. Códigos de restablecimiento y confirmación: 30 minutos. Pagos no completados: 48 horas. Licencias y pagos: lo que exija la ley contable y fiscal. Códigos compartidos: permanecen en el catálogo anónimo.
+
+**Bases legales.** Cuenta y Pro: la ejecución de nuestro contrato. Contribución de códigos y anuncios personalizados: tu consentimiento, que puedes retirar. Informes de fallos, registros y protección contra abusos: nuestro interés legítimo en una App segura y funcional.
 
 ## 7. Permisos
 
@@ -170,6 +178,8 @@ búsqueda Bluetooth).
 
 ## 8. Tus derechos y la eliminación de datos
 
+Según la ley argelina n.º 18-07 de protección de datos personales, y el RGPD cuando se aplique, puedes acceder a tus datos, rectificarlos, oponerte a su tratamiento o eliminarlos, y reclamar ante la autoridad nacional (la ANPDP en Argelia, o tu autoridad de protección de datos).
+
 - **Borrar los datos locales:** desinstala la App o borra sus datos en los
   ajustes de Android.
 - **Eliminar tu cuenta y todo lo vinculado** (correo, hash de la contraseña,
@@ -200,3 +210,7 @@ Preguntas, solicitudes de eliminación de datos o cualquier otra cosa:
 **solar.ai.systems@gmail.com**
 
 Solar AI Systems — Argelia
+
+---
+
+Ver también: [Términos de uso y de venta](terms-es.html)

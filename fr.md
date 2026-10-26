@@ -4,7 +4,7 @@
 
 > Ceci est une traduction. En cas de différence, le [texte anglais](./) fait foi.
 
-**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 26 octobre 2026
+**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 27 octobre 2026
 
 REMOTE DNA (« l’Application ») est une télécommande universelle pour téléviseurs
 et climatiseurs, publiée par **Solar AI Systems** (Mohamed Khocha), Algérie.
@@ -127,12 +127,20 @@ désactiver la contribution à tout moment dans les réglages.
 ## 6. Rapports de plantage
 
 Des rapports de plantage anonymes sont envoyés à **Sentry** (région de données
-UE) **uniquement en cas de plantage de l’Application**. Un rapport contient
+UE) **uniquement en cas de plantage ou d’erreur de l’Application**. Un rapport contient
 l’erreur technique, la version de l’Application et le modèle et la version
 système de l’appareil. Les informations personnelles sont explicitement
 désactivées, et les rapports ne servent jamais à la publicité.
 
 **Vérification de l’état du serveur.** À l’ouverture, l’App envoie une seule requête vide à la page d’état de notre serveur, pour qu’il soit prêt avant que vous en ayez besoin. Elle ne contient aucun identifiant ni aucune donnée sur vous ou vos appareils.
+
+**Journaux du serveur.** Comme tout serveur web, le nôtre (hébergé chez Render) enregistre pour chaque requête l’adresse IP, l’heure, l’adresse demandée et le type d’application, dans des journaux techniques. Ils servent uniquement à la sécurité et au dépannage et sont supprimés après la courte durée fixée par l’hébergeur.
+
+**Lieu de stockage.** Notre serveur et sa base de données (Render, MongoDB Atlas) et le service d’e-mail (Resend) sont situés hors d’Algérie ; Sentry conserve les rapports de plantage dans l’Union européenne ; Google (AdMob, Play) et RevenueCat traitent les données selon leurs propres politiques. Les paiements du site sont traités par Chargily en Algérie.
+
+**Durées de conservation.** Données du compte : jusqu’à la suppression du compte. Codes de réinitialisation et de confirmation : 30 minutes. Paiements non aboutis : 48 heures. Licences et paiements : la durée imposée par le droit comptable et fiscal. Codes partagés : ils restent dans le catalogue anonyme.
+
+**Bases légales.** Compte et Pro : l’exécution de notre contrat. Contribution de codes et publicité personnalisée : votre consentement, que vous pouvez retirer. Rapports de plantage, journaux et protection contre les abus : notre intérêt légitime à une App sûre et fonctionnelle.
 
 ## 7. Autorisations
 
@@ -183,6 +191,8 @@ antérieur, pour la recherche Bluetooth).
 
 ## 8. Vos droits et la suppression des données
 
+Conformément à la loi algérienne n° 18-07 relative à la protection des données à caractère personnel, et au RGPD lorsqu’il s’applique, vous pouvez accéder à vos données, les rectifier, vous opposer à leur traitement ou les supprimer, et saisir l’autorité nationale (l’ANPDP en Algérie, ou votre autorité de protection des données).
+
 - **Supprimer les données locales :** désinstallez l’Application, ou effacez ses
   données dans les paramètres Android.
 - **Supprimer votre compte et tout ce qui y est lié** (e‑mail, empreinte du mot
@@ -215,3 +225,7 @@ Questions, demandes de suppression ou toute autre demande :
 **solar.ai.systems@gmail.com**
 
 Solar AI Systems — Algérie
+
+---
+
+Voir aussi : [Conditions d’utilisation et de vente](terms-fr.html)

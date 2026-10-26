@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** October 26, 2026
+**Effective date:** August 18, 2026 · **Last updated:** October 27, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -112,11 +112,19 @@ Settings.
 ## 6. Crash reports
 
 Anonymous crash reports are sent to **Sentry** (EU data region) **only when the
-App crashes**. A report contains the technical error, app version and device
+App crashes or hits an error**. A report contains the technical error, app version and device
 model/OS version. Personally identifiable information is explicitly disabled,
 and reports are never used for advertising.
 
 **Server status check.** When the App opens, it sends one empty request to our server's status page, so the server is awake before you need it. The request carries no identifier and no data about you or your devices.
+
+**Server logs.** Like any web server, ours (hosted on Render) records each request's IP address, time, address requested and app type in technical logs. They serve security and troubleshooting only and are deleted after the short period set by the host.
+
+**Where data is stored.** Our server and its database (Render, MongoDB Atlas) and the email service (Resend) are located outside Algeria; Sentry stores crash reports in the European Union; Google (AdMob, Play) and RevenueCat process data under their own policies. Website payments are handled by Chargily in Algeria.
+
+**How long we keep it.** Account data: until you delete the account. Reset and confirmation codes: 30 minutes. Unpaid checkout records: 48 hours. Licence and payment records: as long as accounting and tax law requires. Shared codes: they stay in the anonymous catalogue.
+
+**Legal bases.** Account and Pro: to perform our contract with you. Code contribution and personalised ads: your consent, which you can withdraw. Crash reports, server logs and abuse protection: our legitimate interest in a secure, working App.
 
 ## 7. Permissions
 
@@ -161,6 +169,8 @@ older, for the Bluetooth search).
 
 ## 8. Your rights and data deletion
 
+Under Algerian Law No. 18-07 on the protection of personal data, and the GDPR where it applies, you can access, correct, oppose or delete your data, and complain to the national authority (ANPDP in Algeria, or your local data-protection authority).
+
 - **Delete local data:** uninstall the App, or clear its data in Android Settings.
 - **Delete your account and everything linked to it** (email, password hash,
   licence binding): in the App, open **Me → Account → Delete account
@@ -188,3 +198,7 @@ Questions, data-deletion requests or anything else:
 **solar.ai.systems@gmail.com**
 
 Solar AI Systems — Algeria
+
+---
+
+See also: [Terms of Use and Sale](terms.html)
