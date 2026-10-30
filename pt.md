@@ -4,7 +4,7 @@
 
 > Esta é uma tradução. Em caso de diferença, vale o [texto em inglês](./).
 
-**Data de vigência:** 18 de agosto de 2026 · **Última atualização:** 27 de outubro de 2026
+**Data de vigência:** 18 de agosto de 2026 · **Última atualização:** 30 de outubro de 2026
 
 O REMOTE DNA («o App») é um controle remoto universal para TVs e
 ares-condicionados, publicado pela **Solar AI Systems** (Mohamed Khocha),
@@ -75,7 +75,9 @@ App, e esta seção informa o processador de pagamento em cada caso.
   versão do Google Play.
 
 Nos dois casos guardamos só a referência, o valor, o status da transação e a
-chave de licença emitida.
+chave de licença emitida, com as datas em que a chave foi entregue ao App e
+ativada (sem endereço IP nem identificador do aparelho), para podermos verificar
+uma compra se você nos perguntar sobre ela.
 
 ## 4. Publicidade
 

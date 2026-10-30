@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** October 27, 2026
+**Effective date:** August 18, 2026 · **Last updated:** October 30, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -70,7 +70,9 @@ App from, and this section discloses the payment processor used in each case.
   Google Play version of the App.
 
 In both cases we store only the transaction reference, amount, status and the
-issued licence key.
+issued licence key, with the dates on which the key was delivered to the App and
+activated (no IP address and no device identifier), so a purchase can be
+checked if you ask us about it.
 
 ## 4. Advertising
 
