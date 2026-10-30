@@ -18,14 +18,13 @@
 <style>
   *{box-sizing:border-box}
   body{margin:0;background:var(--rd-bg);color:var(--rd-ink);font:16px/1.75 var(--rd-font);-webkit-font-smoothing:antialiased}
-  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
-    background:radial-gradient(50rem 32rem at 85% -10%,var(--rd-glow-1),transparent 60%),
-               radial-gradient(40rem 30rem at 5% 10%,var(--rd-glow-2),transparent 60%)}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:var(--rd-backdrop)}
+  main{background:var(--rd-surface);border:1px solid var(--rd-line);border-radius:22px;-webkit-backdrop-filter:var(--rd-blur);backdrop-filter:var(--rd-blur);box-shadow:var(--rd-glass-shadow)}
   .top{position:sticky;top:0;z-index:2;backdrop-filter:blur(14px);background:var(--rd-header);border-bottom:1px solid var(--rd-line)}
   .top div{max-width:820px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:10px}
   .top a{display:flex;align-items:center;gap:8px;text-decoration:none;font-size:16px}
   .top img{width:28px;height:28px}
-  main{position:relative;z-index:1;max-width:820px;margin:0 auto;padding:28px 18px 64px}
+  main{position:relative;z-index:1;max-width:820px;margin:24px auto 32px;padding:28px clamp(18px,4vw,40px) 48px}
   h1{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.3;margin:.2em 0 .6em;font-weight:800}
   h2{font-size:1.3rem;line-height:1.35;margin:2em 0 .6em;font-weight:800;padding-top:.6em;border-top:1px solid var(--rd-line)}
   h3{font-size:1.08rem;margin:1.6em 0 .4em;font-weight:700}
