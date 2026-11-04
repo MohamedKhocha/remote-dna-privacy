@@ -117,7 +117,32 @@ Isso **não contém nome, e-mail, telefone, localização nem identificador de
 publicidade**, e não pode ser ligado a você. Você pode desligar a contribuição
 quando quiser nas configurações.
 
-## 6. Relatórios de falhas
+## 6. Assistente de IA (opcional)
+
+O App inclui um assistente opcional que ajuda você a recriar um controle remoto
+perdido conversando com ele. Nada é enviado se você não abrir o assistente e
+escrever para ele.
+
+- **O que é enviado:** as mensagens que você digita, os botões que aprova ou
+  recusa, o idioma do App e se o seu telefone tem emissor infravermelho. E-mails,
+  números de telefone e de cartão são removidos antes de chegar ao modelo; não
+  digite outros dados pessoais.
+- **Quem processa:** nosso servidor (Render) envia a conversa à **API Google
+  Gemini**, que escreve as respostas. Usamos a API Gemini paga, cujos termos
+  impedem que o Google use essas conversas para melhorar seus produtos; o Google
+  pode guardá-las por tempo limitado para detectar abusos
+  ([termos da API Gemini](https://ai.google.dev/gemini-api/terms)).
+- **Por quanto tempo:** nosso servidor guarda a conversa na memória só enquanto
+  você a usa; ela não é gravada no nosso banco de dados e se perde quando o
+  servidor reinicia.
+- **Denúncias:** se você denunciar uma resposta, guardamos essa resposta, o
+  motivo escolhido e um identificador aleatório da conversa, para análise, por
+  até 12 meses.
+- **Você no controle:** nenhum código chega à sua TV antes de você tocar em
+  «Enviar», e é o seu telefone que o envia. As respostas são geradas por IA e
+  podem errar; você pode denunciar qualquer resposta.
+
+## 7. Relatórios de falhas
 
 Relatórios de falhas anônimos são enviados ao **Sentry** (região de dados da UE)
 **só quando o App falha ou encontra um erro**. Um relatório contém o erro técnico, a versão do App e
@@ -128,13 +153,13 @@ desativadas explicitamente, e os relatórios nunca são usados para publicidade.
 
 **Registros do servidor.** Como qualquer servidor web, o nosso (hospedado na Render) registra em cada solicitação o endereço IP, a hora, o endereço pedido e o tipo de app, em registros técnicos. Eles servem apenas para segurança e diagnóstico e são apagados após o curto prazo definido pela hospedagem.
 
-**Onde os dados ficam.** Nosso servidor e seu banco de dados (Render, MongoDB Atlas) e o serviço de e-mail (Resend) ficam fora da Argélia; o Sentry guarda os relatórios de falhas na União Europeia; Google (AdMob, Play) e RevenueCat tratam os dados segundo as próprias políticas. Os pagamentos do site são processados pela Chargily na Argélia.
+**Onde os dados ficam.** Nosso servidor e seu banco de dados (Render, MongoDB Atlas) e o serviço de e-mail (Resend) ficam fora da Argélia; o Sentry guarda os relatórios de falhas na União Europeia; Google (AdMob, Play, Gemini API) e RevenueCat tratam os dados segundo as próprias políticas. Os pagamentos do site são processados pela Chargily na Argélia.
 
 **Prazos de guarda.** Dados da conta: até você excluir a conta. Códigos de redefinição e confirmação: 30 minutos. Pagamentos não concluídos: 48 horas. Licenças e pagamentos: o prazo exigido pela lei contábil e fiscal. Códigos compartilhados: ficam no catálogo anônimo.
 
 **Bases legais.** Conta e Pro: a execução do nosso contrato. Contribuição de códigos e anúncios personalizados: o seu consentimento, que você pode retirar. Relatórios de falhas, registros e proteção contra abusos: nosso interesse legítimo em um App seguro e funcionando.
 
-## 7. Permissões
+## 8. Permissões
 
 - `TRANSMIT_IR` — para emitir sinais infravermelhos pelo emissor IR do seu
   celular. São pulsos de luz em um só sentido e não carregam informação pessoal.
@@ -175,7 +200,7 @@ O App **não** pede microfone, contatos, telefone, SMS nem armazenamento, e só 
 a localização como descrito acima (Android 11 ou anterior, para a busca
 Bluetooth).
 
-## 8. Seus direitos e a exclusão de dados
+## 9. Seus direitos e a exclusão de dados
 
 Pela lei argelina n.º 18-07 de proteção de dados pessoais, e pelo RGPD quando aplicável, você pode acessar, corrigir, se opor ao tratamento ou excluir seus dados, e reclamar à autoridade nacional (a ANPDP na Argélia, ou a autoridade de proteção de dados do seu país).
 
@@ -192,17 +217,17 @@ Pela lei argelina n.º 18-07 de proteção de dados pessoais, e pelo RGPD quando
   configurações. Os códigos compartilhados antes são anônimos e não podem ser
   ligados a você.
 
-## 9. Crianças
+## 10. Crianças
 
 O App é uma ferramenta para todos os públicos. Ele não é voltado a crianças e
 não coletamos dados delas conscientemente.
 
-## 10. Mudanças
+## 11. Mudanças
 
 Se uma versão futura mudar estas práticas, esta política é atualizada **antes**
 de essa versão ser publicada, e o link do App aponta para o texto revisado.
 
-## 11. Contato
+## 12. Contato
 
 Dúvidas, pedidos de exclusão de dados ou qualquer outra coisa:
 

@@ -56,7 +56,7 @@ Los **correos para restablecer la contraseña** se envían a través de Resend
 (resend.com). Solo se transmiten tu correo y un código temporal de 6 dígitos.
 
 Puedes pedir que se elimine tu cuenta en cualquier momento: consulta la
-sección 8.
+sección 9.
 
 ## 3. Pagos
 
@@ -117,7 +117,32 @@ Esto **no contiene nombre, correo, número de teléfono, ubicación ni identific
 publicitario**, y no se puede vincular contigo. Puedes desactivar la
 contribución cuando quieras en Ajustes.
 
-## 6. Informes de fallos
+## 6. Asistente de IA (opcional)
+
+La App incluye un asistente opcional que te ayuda a reconstruir un control
+remoto perdido conversando con él. No se envía nada si no abres el asistente y
+le escribes.
+
+- **Qué se envía:** los mensajes que escribes, los botones que apruebas o
+  rechazas, el idioma de la App y si tu teléfono tiene emisor infrarrojo. Los
+  correos, números de teléfono y de tarjeta se eliminan antes de llegar al modelo;
+  no escribas otros datos personales.
+- **Quién lo procesa:** nuestro servidor (Render) envía la conversación a la
+  **API de Google Gemini**, que redacta las respuestas. Usamos la API de Gemini de
+  pago, cuyas condiciones impiden que Google use estas conversaciones para mejorar
+  sus productos; Google puede conservarlas un tiempo limitado para detectar abusos
+  ([condiciones de la API de Gemini](https://ai.google.dev/gemini-api/terms)).
+- **Cuánto tiempo:** nuestro servidor guarda la conversación en memoria solo
+  mientras la usas; no se escribe en nuestra base de datos y se pierde al
+  reiniciar el servidor.
+- **Denuncias:** si denuncias una respuesta, guardamos esa respuesta, el motivo
+  elegido y un identificador aleatorio de la conversación, para revisarla,
+  hasta 12 meses.
+- **Tú decides:** ningún código llega a tu TV hasta que tocas «Enviar», y lo
+  envía tu teléfono. Las respuestas las genera una IA y pueden equivocarse;
+  puedes denunciar cualquier respuesta.
+
+## 7. Informes de fallos
 
 Se envían informes de fallos anónimos a **Sentry** (región de datos de la UE)
 **solo cuando la App falla o encuentra un error**. Un informe contiene el error técnico, la versión
@@ -129,13 +154,13 @@ publicidad.
 
 **Registros del servidor.** Como cualquier servidor web, el nuestro (alojado en Render) registra en cada solicitud la dirección IP, la hora, la dirección pedida y el tipo de app, en registros técnicos. Solo sirven para seguridad y diagnóstico y se borran tras el breve plazo que fija el proveedor.
 
-**Dónde se guardan los datos.** Nuestro servidor y su base de datos (Render, MongoDB Atlas) y el servicio de correo (Resend) están fuera de Argelia; Sentry guarda los informes de fallos en la Unión Europea; Google (AdMob, Play) y RevenueCat tratan los datos según sus propias políticas. Los pagos del sitio los procesa Chargily en Argelia.
+**Dónde se guardan los datos.** Nuestro servidor y su base de datos (Render, MongoDB Atlas) y el servicio de correo (Resend) están fuera de Argelia; Sentry guarda los informes de fallos en la Unión Europea; Google (AdMob, Play, Gemini API) y RevenueCat tratan los datos según sus propias políticas. Los pagos del sitio los procesa Chargily en Argelia.
 
 **Plazos de conservación.** Datos de la cuenta: hasta que la elimines. Códigos de restablecimiento y confirmación: 30 minutos. Pagos no completados: 48 horas. Licencias y pagos: lo que exija la ley contable y fiscal. Códigos compartidos: permanecen en el catálogo anónimo.
 
 **Bases legales.** Cuenta y Pro: la ejecución de nuestro contrato. Contribución de códigos y anuncios personalizados: tu consentimiento, que puedes retirar. Informes de fallos, registros y protección contra abusos: nuestro interés legítimo en una App segura y funcional.
 
-## 7. Permisos
+## 8. Permisos
 
 - `TRANSMIT_IR` — para emitir señales infrarrojas con el emisor IR de tu
   teléfono. Son pulsos de luz en un solo sentido y no llevan información
@@ -178,7 +203,7 @@ La App **no** pide micrófono, contactos, teléfono, SMS ni almacenamiento, y so
 pide la ubicación como se describe arriba (Android 11 o anterior, para la
 búsqueda Bluetooth).
 
-## 8. Tus derechos y la eliminación de datos
+## 9. Tus derechos y la eliminación de datos
 
 Según la ley argelina n.º 18-07 de protección de datos personales, y el RGPD cuando se aplique, puedes acceder a tus datos, rectificarlos, oponerte a su tratamiento o eliminarlos, y reclamar ante la autoridad nacional (la ANPDP en Argelia, o tu autoridad de protección de datos).
 
@@ -194,18 +219,18 @@ Según la ley argelina n.º 18-07 de protección de datos personales, y el RGPD 
 - **Retirar el consentimiento para contribuir códigos:** desactívalo en Ajustes.
   Los códigos que compartiste antes son anónimos y no se pueden vincular contigo.
 
-## 9. Niños
+## 10. Niños
 
 La App es una herramienta para todo público. No está dirigida a niños y no
 recopilamos datos de ellos a sabiendas.
 
-## 10. Cambios
+## 11. Cambios
 
 Si una versión futura cambia estas prácticas, esta política se actualiza
 **antes** de publicar esa versión, y el enlace de la App apunta al texto
 revisado.
 
-## 11. Contacto
+## 12. Contacto
 
 Preguntas, solicitudes de eliminación de datos o cualquier otra cosa:
 

@@ -59,7 +59,7 @@ Les **e‑mails de réinitialisation** sont envoyés via Resend (resend.com). Se
 votre adresse e‑mail et un code temporaire à 6 chiffres sont transmis.
 
 Vous pouvez demander la suppression de votre compte à tout moment — voir la
-section 8.
+section 9.
 
 ## 3. Paiements
 
@@ -126,7 +126,32 @@ Cela ne contient **ni nom, ni e‑mail, ni numéro de téléphone, ni position, 
 identifiant publicitaire**, et ne peut pas être relié à vous. Vous pouvez
 désactiver la contribution à tout moment dans les réglages.
 
-## 6. Rapports de plantage
+## 6. Assistant IA (facultatif)
+
+L'App propose un assistant facultatif qui vous aide à reconstruire une
+télécommande perdue en discutant avec lui. Rien n'est envoyé tant que vous
+n'ouvrez pas l'assistant pour lui écrire.
+
+- **Ce qui est envoyé :** les messages que vous tapez, les touches que vous
+  acceptez ou refusez d'envoyer, la langue de l'App et la présence d'un émetteur
+  infrarouge. Les adresses e-mail, numéros de téléphone et de carte sont retirés
+  avant d'atteindre le modèle ; ne saisissez pas d'autres informations personnelles.
+- **Qui le traite :** notre serveur (Render) transmet la conversation à l'**API
+  Google Gemini**, qui rédige les réponses. Nous utilisons l'API Gemini payante,
+  dont les conditions excluent l'utilisation de ces conversations pour améliorer
+  les produits de Google ; Google peut les conserver un temps limité pour détecter
+  les abus ([conditions de l'API Gemini](https://ai.google.dev/gemini-api/terms)).
+- **Durée :** notre serveur garde la conversation en mémoire seulement pendant
+  que vous l'utilisez ; elle n'est pas écrite dans notre base de données et
+  disparaît au redémarrage du serveur.
+- **Signalements :** si vous signalez une réponse, nous conservons cette réponse,
+  le motif choisi et un identifiant de conversation aléatoire, pour examen,
+  12 mois au plus.
+- **Vous gardez la main :** aucun code n'atteint votre TV avant que vous touchiez
+  « Envoyer », et c'est votre téléphone qui l'envoie. Les réponses sont générées
+  par une IA et peuvent être fausses ; vous pouvez signaler toute réponse.
+
+## 7. Rapports de plantage
 
 Des rapports de plantage anonymes sont envoyés à **Sentry** (région de données
 UE) **uniquement en cas de plantage ou d’erreur de l’Application**. Un rapport contient
@@ -138,13 +163,13 @@ désactivées, et les rapports ne servent jamais à la publicité.
 
 **Journaux du serveur.** Comme tout serveur web, le nôtre (hébergé chez Render) enregistre pour chaque requête l’adresse IP, l’heure, l’adresse demandée et le type d’application, dans des journaux techniques. Ils servent uniquement à la sécurité et au dépannage et sont supprimés après la courte durée fixée par l’hébergeur.
 
-**Lieu de stockage.** Notre serveur et sa base de données (Render, MongoDB Atlas) et le service d’e-mail (Resend) sont situés hors d’Algérie ; Sentry conserve les rapports de plantage dans l’Union européenne ; Google (AdMob, Play) et RevenueCat traitent les données selon leurs propres politiques. Les paiements du site sont traités par Chargily en Algérie.
+**Lieu de stockage.** Notre serveur et sa base de données (Render, MongoDB Atlas) et le service d’e-mail (Resend) sont situés hors d’Algérie ; Sentry conserve les rapports de plantage dans l’Union européenne ; Google (AdMob, Play, Gemini API) et RevenueCat traitent les données selon leurs propres politiques. Les paiements du site sont traités par Chargily en Algérie.
 
 **Durées de conservation.** Données du compte : jusqu’à la suppression du compte. Codes de réinitialisation et de confirmation : 30 minutes. Paiements non aboutis : 48 heures. Licences et paiements : la durée imposée par le droit comptable et fiscal. Codes partagés : ils restent dans le catalogue anonyme.
 
 **Bases légales.** Compte et Pro : l’exécution de notre contrat. Contribution de codes et publicité personnalisée : votre consentement, que vous pouvez retirer. Rapports de plantage, journaux et protection contre les abus : notre intérêt légitime à une App sûre et fonctionnelle.
 
-## 7. Autorisations
+## 8. Autorisations
 
 - `TRANSMIT_IR` — pour émettre des signaux infrarouges via l’émetteur IR de
   votre téléphone. Ce sont des impulsions lumineuses à sens unique, qui ne
@@ -191,7 +216,7 @@ L’Application ne demande **pas** le micro, les contacts, le téléphone, les S
 le stockage, et ne demande la position que comme décrit ci‑dessus (Android 11 et
 antérieur, pour la recherche Bluetooth).
 
-## 8. Vos droits et la suppression des données
+## 9. Vos droits et la suppression des données
 
 Conformément à la loi algérienne n° 18-07 relative à la protection des données à caractère personnel, et au RGPD lorsqu’il s’applique, vous pouvez accéder à vos données, les rectifier, vous opposer à leur traitement ou les supprimer, et saisir l’autorité nationale (l’ANPDP en Algérie, ou votre autorité de protection des données).
 
@@ -209,18 +234,18 @@ Conformément à la loi algérienne n° 18-07 relative à la protection des donn
   les réglages. Les codes déjà partagés sont anonymes et ne peuvent pas être
   reliés à vous.
 
-## 9. Enfants
+## 10. Enfants
 
 L’Application est un outil tout public. Elle ne s’adresse pas aux enfants et
 nous ne collectons pas sciemment de données les concernant.
 
-## 10. Modifications
+## 11. Modifications
 
 Si une future version change ces pratiques, cette politique est mise à jour
 **avant** la publication de cette version, et le lien dans l’Application pointe
 vers le texte révisé.
 
-## 11. Contact
+## 12. Contact
 
 Questions, demandes de suppression ou toute autre demande :
 
