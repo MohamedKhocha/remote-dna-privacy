@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](./) es el que vale.
 
-**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 30 de octubre de 2026
+**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 13 de noviembre de 2026
 
 REMOTE DNA («la App») es un control remoto universal para TV y aires
 acondicionados, publicado por **Solar AI Systems** (Mohamed Khocha), Argelia.
@@ -117,21 +117,26 @@ Esto **no contiene nombre, correo, número de teléfono, ubicación ni identific
 publicitario**, y no se puede vincular contigo. Puedes desactivar la
 contribución cuando quieras en Ajustes.
 
-## 6. Asistente de IA (opcional)
+## 6. Asistente de IA (opcional, beta)
 
-La App incluye un asistente opcional que te ayuda a reconstruir un control
-remoto perdido conversando con él. No se envía nada si no abres el asistente y
-le escribes.
+La App incluye un asistente opcional que te ayuda a reconstruir un mando perdido
+conversando con él. No se envía nada a menos que abras el asistente y le
+escribas. El asistente es solo para adultos (18+). No se ofrece en el Espacio
+Económico Europeo, Suiza ni el Reino Unido: la App envía el ajuste de región de
+tu teléfono y nuestro servidor rechaza la conversación desde esas regiones.
 
 - **Qué se envía:** los mensajes que escribes, los botones que apruebas o
-  rechazas, el idioma de la App y si tu teléfono tiene emisor infrarrojo. Los
-  correos, números de teléfono y de tarjeta se eliminan antes de llegar al modelo;
-  no escribas otros datos personales.
-- **Quién lo procesa:** nuestro servidor (Render) envía la conversación a la
-  **API de Google Gemini**, que redacta las respuestas. Usamos la API de Gemini de
-  pago, cuyas condiciones impiden que Google use estas conversaciones para mejorar
-  sus productos; Google puede conservarlas un tiempo limitado para detectar abusos
-  ([condiciones de la API de Gemini](https://ai.google.dev/gemini-api/terms)).
+  rechazas, el idioma de la App, el ajuste de región de tu teléfono y si tu
+  teléfono tiene emisor de infrarrojos. Los correos electrónicos, números de
+  teléfono y números de tarjeta se eliminan antes de que nada llegue al modelo;
+  no escribas otra información personal o sensible.
+- **Quién lo procesa:** nuestro servidor (Render) reenvía la conversación a la
+  **API de Google Gemini**, que redacta las respuestas. Actualmente usamos el
+  nivel gratuito de la API de Gemini. Según sus condiciones, Google usa lo que
+  se envía y las respuestas para prestar, mejorar y desarrollar sus productos y
+  tecnologías de aprendizaje automático, y revisores humanos pueden leerlos
+  ([condiciones de la API de Gemini](https://ai.google.dev/gemini-api/terms)). Si pasamos a un servicio de
+  pago, actualizaremos esta sección.
 - **Cuánto tiempo:** nuestro servidor guarda la conversación en memoria solo
   mientras la usas; no se escribe en nuestra base de datos y se pierde al
   reiniciar el servidor.

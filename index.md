@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** October 30, 2026
+**Effective date:** August 18, 2026 · **Last updated:** November 13, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -111,20 +111,25 @@ This contains **no name, email, phone number, location or advertising ID**, and
 it cannot be linked back to you. You can turn contribution off at any time in
 Settings.
 
-## 6. AI assistant (optional)
+## 6. AI assistant (optional, beta)
 
 The App includes an optional assistant that helps you rebuild a lost remote by
 chatting with it. Nothing is sent unless you open the assistant and write to it.
+The assistant is for adults (18+). It is not offered in the European Economic
+Area, Switzerland or the United Kingdom: the App sends your phone's region
+setting, and our server refuses the chat from those regions.
 
 - **What is sent:** the messages you type, the buttons you approve or refuse,
-  the App's language and whether your phone has an infrared emitter. Email
-  addresses, phone numbers and card numbers are removed before anything reaches
-  the model; please do not type other personal information.
+  the App's language, your phone's region setting and whether your phone has an
+  infrared emitter. Email addresses, phone numbers and card numbers are removed
+  before anything reaches the model; please do not type other personal or
+  sensitive information.
 - **Who processes it:** our server (Render) forwards the conversation to the
-  **Google Gemini API**, which writes the replies. We use the paid Gemini API,
-  under whose terms Google does not use these conversations to improve its
-  products; Google may keep them for a limited time to detect abuse
-  ([Gemini API terms](https://ai.google.dev/gemini-api/terms)).
+  **Google Gemini API**, which writes the replies. We currently use the Gemini
+  API's free tier. Under its terms, Google uses what is sent and the replies to
+  provide, improve and develop its products and machine-learning technologies,
+  and human reviewers may read them ([Gemini API terms](https://ai.google.dev/gemini-api/terms)). If we
+  move to a paid service, we will update this section.
 - **How long:** our server keeps a conversation in memory only while you use it;
   it is not written to our database and is lost when the server restarts.
 - **Reports:** if you report a reply, we store that reply, the reason you chose

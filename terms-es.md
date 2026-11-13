@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](terms.html) es el que vale.
 
-**Fecha de entrada en vigor:** 27 de octubre de 2026
+**Fecha de entrada en vigor:** 27 de octubre de 2026 · **Última actualización:** 13 de noviembre de 2026
 
 Estos términos se aplican a la app REMOTE DNA y a su mejora Pro opcional. Los
 publica **Solar AI Systems** (Mohamed Khocha), Argelia —
@@ -32,6 +32,14 @@ derecho a controlar. No la uses para:
 - enviar a propósito códigos falsos al catálogo compartido.
 
 No puedes revender la App ni quitar sus avisos.
+
+**Asistente de IA (beta).** Las respuestas del asistente opcional las genera
+una IA y pueden equivocarse: verifícalas antes de confiar en ellas. Ningún código
+llega a tu TV sin tu aprobación. El asistente es solo para adultos (18+), no se
+ofrece en el Espacio Económico Europeo, Suiza ni el Reino Unido, y puede
+limitarse, pausarse o retirarse en cualquier momento. No lo uses para enviar
+contenido abusivo, ilícito o personal. El tratamiento de sus datos se describe en
+la política de privacidad (sección 6).
 
 ## 3. Versión gratuita y Pro
 

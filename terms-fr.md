@@ -4,7 +4,7 @@
 
 > Ceci est une traduction. En cas de différence, le [texte anglais](terms.html) fait foi.
 
-**Date d’entrée en vigueur :** 27 octobre 2026
+**Date d’entrée en vigueur :** 27 octobre 2026 · **Dernière mise à jour :** 13 novembre 2026
 
 Ces conditions s’appliquent à l’application REMOTE DNA et à sa mise à niveau
 Pro facultative. Elles sont publiées par **Solar AI Systems** (Mohamed Khocha),
@@ -32,6 +32,14 @@ appareils que vous avez le droit de commander. N’utilisez pas l’App pour :
 - envoyer volontairement de faux codes au catalogue partagé.
 
 Vous ne pouvez pas revendre l’App ni en retirer les mentions.
+
+**Assistant IA (bêta).** Les réponses de l'assistant facultatif sont générées
+par une IA et peuvent être fausses : vérifiez avant de vous y fier. Aucun code
+n'atteint votre TV sans votre accord. L'assistant est réservé aux adultes (18 ans
+et plus), n'est pas proposé dans l'Espace économique européen, en Suisse ni au
+Royaume-Uni, et peut être limité, suspendu ou retiré à tout moment. Ne l'utilisez
+pas pour envoyer des contenus abusifs, illicites ou personnels. Le traitement de
+ses données est décrit dans la politique de confidentialité (section 6).
 
 ## 3. Version gratuite et Pro
 
