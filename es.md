@@ -122,8 +122,9 @@ contribución cuando quieras en Ajustes.
 La App incluye un asistente opcional que te ayuda a reconstruir un mando perdido
 conversando con él. No se envía nada a menos que abras el asistente y le
 escribas. El asistente es solo para adultos (18+). No se ofrece en el Espacio
-Económico Europeo, Suiza ni el Reino Unido: la App envía el ajuste de región de
-tu teléfono y nuestro servidor rechaza la conversación desde esas regiones.
+Económico Europeo, Suiza ni el Reino Unido: nuestro servidor determina el país de
+la dirección IP de tu conexión ([IP Geolocation by DB-IP](https://db-ip.com); en memoria, nunca se guarda) y solo
+usa el ajuste de región de tu teléfono si ese país es desconocido.
 
 - **Qué se envía:** los mensajes que escribes, los botones que apruebas o
   rechazas, el idioma de la App, el ajuste de región de tu teléfono y si tu

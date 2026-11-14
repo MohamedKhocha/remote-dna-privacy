@@ -116,8 +116,9 @@ Settings.
 The App includes an optional assistant that helps you rebuild a lost remote by
 chatting with it. Nothing is sent unless you open the assistant and write to it.
 The assistant is for adults (18+). It is not offered in the European Economic
-Area, Switzerland or the United Kingdom: the App sends your phone's region
-setting, and our server refuses the chat from those regions.
+Area, Switzerland or the United Kingdom: our server looks up the country of
+your connection's IP address ([IP Geolocation by DB-IP](https://db-ip.com); in memory, never stored) and, only if
+it is unknown, uses your phone's region setting.
 
 - **What is sent:** the messages you type, the buttons you approve or refuse,
   the App's language, your phone's region setting and whether your phone has an

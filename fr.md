@@ -132,8 +132,9 @@ L'App comprend un assistant facultatif qui vous aide à reconstituer une
 télécommande perdue en discutant avec lui. Rien n'est envoyé tant que vous
 n'ouvrez pas l'assistant pour lui écrire. L'assistant est réservé aux adultes
 (18 ans et plus). Il n'est pas proposé dans l'Espace économique européen, en
-Suisse ni au Royaume-Uni : l'App envoie le réglage de région de votre téléphone,
-et notre serveur refuse la discussion depuis ces régions.
+Suisse ni au Royaume-Uni : notre serveur détermine le pays de l'adresse IP de
+votre connexion ([IP Geolocation by DB-IP](https://db-ip.com) ; en mémoire, jamais conservée) et n'utilise le
+réglage de région de votre téléphone que si ce pays est inconnu.
 
 - **Ce qui est envoyé :** les messages que vous écrivez, les touches que vous
   acceptez ou refusez, la langue de l'App, le réglage de région de votre

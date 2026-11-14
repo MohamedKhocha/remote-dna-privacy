@@ -122,9 +122,10 @@ quando quiser nas configurações.
 O App inclui um assistente opcional que ajuda você a reconstruir um controle
 perdido conversando com ele. Nada é enviado a menos que você abra o assistente
 e escreva para ele. O assistente é somente para adultos (18+). Ele não é
-oferecido no Espaço Econômico Europeu, na Suíça nem no Reino Unido: o App envia
-a configuração de região do seu telefone e o nosso servidor recusa a conversa a
-partir dessas regiões.
+oferecido no Espaço Econômico Europeu, na Suíça nem no Reino Unido: nosso servidor
+identifica o país do endereço IP da sua conexão ([IP Geolocation by DB-IP](https://db-ip.com); na memória, nunca
+guardado) e só usa a configuração de região do seu telefone se esse país for
+desconhecido.
 
 - **O que é enviado:** as mensagens que você digita, os botões que você aprova
   ou recusa, o idioma do App, a configuração de região do seu telefone e se o
