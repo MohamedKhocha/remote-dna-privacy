@@ -4,7 +4,7 @@
 
 > Ceci est une traduction. En cas de différence, le [texte anglais](./) fait foi.
 
-**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 13 novembre 2026
+**Date d’entrée en vigueur :** 18 août 2026 · **Dernière mise à jour :** 15 novembre 2026
 
 REMOTE DNA (« l’Application ») est une télécommande universelle pour téléviseurs
 et climatiseurs, publiée par **Solar AI Systems** (Mohamed Khocha), Algérie.
@@ -149,9 +149,13 @@ réglage de région de votre téléphone que si ce pays est inconnu.
   ses technologies d'apprentissage automatique, et des réviseurs humains peuvent
   les lire ([conditions de l'API Gemini](https://ai.google.dev/gemini-api/terms)). Si nous passons à un
   service payant, nous mettrons cette section à jour.
-- **Durée :** notre serveur garde la conversation en mémoire seulement pendant
-  que vous l'utilisez ; elle n'est pas écrite dans notre base de données et
-  disparaît au redémarrage du serveur.
+- **Durée :** notre serveur garde le texte de la conversation en mémoire
+  seulement pendant que vous l'utilisez ; il n'est pas écrit dans notre base de
+  données et disparaît au redémarrage du serveur. Pour qu'une session continue
+  après un redémarrage, nous gardons ses données techniques 7 jours après votre
+  dernier message, sous un identifiant de conversation aléatoire : le protocole
+  infrarouge et l'adresse testés, les codes des touches confirmées et les
+  adresses ignorées par votre TV. Aucun texte de message, rien qui vous identifie.
 - **Signalements :** si vous signalez une réponse, nous conservons cette réponse,
   le motif choisi et un identifiant de conversation aléatoire, pour examen,
   12 mois au plus.

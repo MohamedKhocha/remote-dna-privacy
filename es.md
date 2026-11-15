@@ -4,7 +4,7 @@
 
 > Esta es una traducción. Si hay alguna diferencia, el [texto en inglés](./) es el que vale.
 
-**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 13 de noviembre de 2026
+**Fecha de entrada en vigor:** 18 de agosto de 2026 · **Última actualización:** 15 de noviembre de 2026
 
 REMOTE DNA («la App») es un control remoto universal para TV y aires
 acondicionados, publicado por **Solar AI Systems** (Mohamed Khocha), Argelia.
@@ -138,9 +138,13 @@ usa el ajuste de región de tu teléfono si ese país es desconocido.
   tecnologías de aprendizaje automático, y revisores humanos pueden leerlos
   ([condiciones de la API de Gemini](https://ai.google.dev/gemini-api/terms)). Si pasamos a un servicio de
   pago, actualizaremos esta sección.
-- **Cuánto tiempo:** nuestro servidor guarda la conversación en memoria solo
-  mientras la usas; no se escribe en nuestra base de datos y se pierde al
-  reiniciar el servidor.
+- **Cuánto tiempo:** nuestro servidor guarda el texto de la conversación en
+  memoria solo mientras la usas; no se escribe en nuestra base de datos y se
+  pierde al reiniciar el servidor. Para que una sesión continúe tras un
+  reinicio, guardamos sus datos técnicos 7 días después de tu último mensaje,
+  con un identificador de conversación aleatorio: el protocolo infrarrojo y la
+  dirección en prueba, los códigos de los botones que confirmaste y las
+  direcciones que tu TV ignoró. Ningún texto de mensajes ni nada que te identifique.
 - **Denuncias:** si denuncias una respuesta, guardamos esa respuesta, el motivo
   elegido y un identificador aleatorio de la conversación, para revisarla,
   hasta 12 meses.

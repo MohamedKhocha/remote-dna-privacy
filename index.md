@@ -2,7 +2,7 @@
 
 [العربية](ar.html) · [Français](fr.html) · [Español](es.html) · [Português](pt.html) · [中文](zh.html)
 
-**Effective date:** August 18, 2026 · **Last updated:** November 13, 2026
+**Effective date:** August 18, 2026 · **Last updated:** November 15, 2026
 
 REMOTE DNA ("the App") is a universal remote-control application for TVs and
 air conditioners, published by **Solar AI Systems** (Mohamed Khocha), Algeria.
@@ -131,8 +131,13 @@ it is unknown, uses your phone's region setting.
   provide, improve and develop its products and machine-learning technologies,
   and human reviewers may read them ([Gemini API terms](https://ai.google.dev/gemini-api/terms)). If we
   move to a paid service, we will update this section.
-- **How long:** our server keeps a conversation in memory only while you use it;
-  it is not written to our database and is lost when the server restarts.
+- **How long:** our server keeps the conversation itself in memory only while you
+  use it; the text is not written to our database and is lost when the server
+  restarts. So that a session can go on after a restart, we keep its technical
+  facts for 7 days after your last message, under a random conversation
+  identifier: the infrared protocol and address being tested, the button codes
+  you confirmed and the addresses your TV ignored. No message text and nothing
+  that identifies you.
 - **Reports:** if you report a reply, we store that reply, the reason you chose
   and a random conversation identifier, for review, for up to 12 months.
 - **You stay in control:** no code reaches your TV until you tap Send, and your
